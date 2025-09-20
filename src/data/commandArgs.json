@@ -1,0 +1,15 @@
+{
+  "dice": [
+    {
+      "name": "sides",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "name": "count",
+      "type": "integer",
+      "required": false,
+      "default": 1
+    }
+  ]
+}

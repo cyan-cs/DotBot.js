@@ -27,7 +27,7 @@ module.exports = {
             return;
         }
 
-        logger.info(`/${interaction.commandName} by ${interaction.user.tag} in ${interaction.guild ? `${interaction.guild.name} (ID: ${interaction.guild.id})` : 'DM'}`);
+        logger.info(`[CMD] /${interaction.commandName} by ${interaction.user.tag} in ${interaction.guild ? `${interaction.guild.name} (ID: ${interaction.guild.id})` : 'DM'}`);
 
         try {
             // コマンドの実行
